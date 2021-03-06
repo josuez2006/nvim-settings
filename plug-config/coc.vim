@@ -9,10 +9,10 @@
     " \ 'coc-highlight',
 
 " Use tab for trigger completion with characters ahead and navigate.
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
+"inoremap <silent><expr> <TAB>
+      "\ pumvisible() ? "\<C-n>" :
+      "\ <SID>check_back_space() ? "\<TAB>" :
+      "\ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 function! s:check_back_space() abort
@@ -139,7 +139,7 @@ let g:coc_explorer_global_presets = {
 \ }
 " nnoremap <silent> <leader>e :CocCommand explorer<CR>
 nmap <space>e :CocCommand explorer<CR>
-nmap <space>f :CocCommand explorer --preset floatingRightside<CR>
+"nmap <space>f :CocCommand explorer --preset floatingRightside<CR>
 autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
 " Snippets
@@ -157,3 +157,7 @@ let g:coc_snippet_prev = '<S-TAB'
 
 " Use <C-j> for both expand and jump (make expand higher priority.)
 "imap <C-j> <Plug>(coc-snippets-expand-jump)
+
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gD <Plug>(coc-type-definition)
+nmap <silent> gr <Plug>(coc-references)

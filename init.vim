@@ -6,10 +6,11 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/emmet.vim
 source $HOME/.config/nvim/plug-config/nerdcomenter.vim
-source $HOME/.config/nvim/plug-config/fzt.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/vimwiki.vim
-source $HOME/.config/nvim/plug-config/multiple-cursor.vim
+source $HOME/.config/nvim/plug-config/sneak.vim
+source $HOME/.config/nvim/plug-config/auto-pairs.vim
+source $HOME/.config/nvim/plug-config/kiteco.vim
 
 " Lua
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua

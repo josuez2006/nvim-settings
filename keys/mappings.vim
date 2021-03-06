@@ -32,11 +32,11 @@ nnoremap <C-w> :wq!<CR>
 nnoremap <C-x> :q<CR>
 
 " Alternate way to save
-imap <C-s> <C-j>:w<CR>a
+imap <C-s> <C-j>:w<CR>
 " Alternate way to quit
-imap <C-w> <C-j>:wq!<CR>a
+imap <C-w> <C-j>:wq!<CR>
 " Quit
-imap <C-x> <C-j>:q<CR>a
+imap <C-x> <C-j>:q<CR>
 
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
@@ -58,6 +58,11 @@ nnoremap <M-h>    :vertical resize -2<CR>
 nnoremap <M-l>    :vertical resize +2<CR>
 
 "Html jump 
-nmap t i<CR><C-j>O
+" nmap t i<CR><C-j>O
 " Html tab
-nmap m ddko 
+" nmap m ddko 
+nmap <leader>1 :close<CR>
+
+" Python
+map <leader>{ :!python3<UP>
+map <leader>} :!python3 
