@@ -8,7 +8,7 @@ imap <C-h> <C-j>i
 imap <C-l> <C-j>la
 
 " Move selected line / block of text in visual mode
-xnoremap K :move '<-2<CR>gv-gv
+xnoremap K :move '<-2<CR>gv-gv  
 xnoremap J :move '>+1<CR>gv-gv
 
 " I hate esc
@@ -58,7 +58,7 @@ nnoremap <M-h>    :vertical resize -2<CR>
 nnoremap <M-l>    :vertical resize +2<CR>
 
 "Html jump 
-" nmap t i<CR><C-j>O
+nmap t i<CR><C-j>O
 " Html tab
 " nmap m ddko 
 nmap <leader>1 :close<CR>

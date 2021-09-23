@@ -9,3 +9,4 @@ let g:NERDCompactSexyComs = 1
 
 "Change commenter
 map <Leader>q <plug>NERDCommenterInvert
+map <Leader>Q <plug>NERDCommenterComment
