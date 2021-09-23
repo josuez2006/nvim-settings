@@ -23,9 +23,6 @@ Plug 'jiangmiao/auto-pairs'
 " Ranger 
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
-" VimWiki
-Plug 'vimwiki/vimwiki'
-
 " Git
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-rhubarb'

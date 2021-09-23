@@ -1,0 +1,57 @@
+[submodule "autoload/plugged/auto-pairs"]
+	path = autoload/plugged/auto-pairs
+	url = https://github.com/preservim/nerdcommenter.git
+[submodule "autoload/plugged/coc.nvim"]
+	path = autoload/plugged/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "gruvbox"]
+	path = gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule "autoload/plugged/gruvbox"]
+	path = autoload/plugged/gruvbox
+	url = https://github.com/morhetz/gruvbox.git
+[submodule "autoload/plugged/gv.vim"]
+	path = autoload/plugged/gv.vim
+	url = https://github.com/junegunn/gv.vim.git
+[submodule "autoload/plugged/nerdcommenter"]
+	path = autoload/plugged/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter.git
+[submodule "autoload/plugged/nvim-colorizer.lua"]
+	path = autoload/plugged/nvim-colorizer.lua
+	url = https://github.com/norcalli/nvim-colorizer.lua.git
+[submodule "autoload/plugged/rainbow_parentheses.vim"]
+	path = autoload/plugged/rainbow_parentheses.vim
+	url = https://github.com/junegunn/rainbow_parentheses.vim.git
+[submodule "autoload/plugged/rnvimr"]
+	path = autoload/plugged/rnvimr
+	url = https://github.com/kevinhwang91/rnvimr.git
+[submodule "autoload/plugged/tagalong.vim"]
+	path = autoload/plugged/tagalong.vim
+	url = https://github.com/AndrewRadev/tagalong.vim.git
+[submodule "autoload/plugged/vim-airline"]
+	path = autoload/plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "autoload/plugged/vim-airline-themes"]
+	path = autoload/plugged/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "autoload/plugged/vim-bbye"]
+	path = autoload/plugged/vim-bbye
+	url = https://github.com/moll/vim-bbye.git
+[submodule "autoload/plugged/vim-flog"]
+	path = autoload/plugged/vim-flog
+	url = https://github.com/rbong/vim-flog.git
+[submodule "autoload/plugged/vim-fugitive"]
+	path = autoload/plugged/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "autoload/plugged/vim-js"]
+	path = autoload/plugged/vim-js
+	url = https://github.com/yuezk/vim-js.git
+[submodule "autoload/plugged/vim-plugin"]
+	path = autoload/plugged/vim-plugin
+	url = https://github.com/kiteco/vim-plugin.git
+[submodule "autoload/plugged/vim-rhubarb"]
+	path = autoload/plugged/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
+[submodule "autoload/plugged/vim-sneak"]
+	path = autoload/plugged/vim-sneak
+	url = https://github.com/justinmk/vim-sneak.git
